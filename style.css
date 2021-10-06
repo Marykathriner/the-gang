@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');body, html {
+	font-family:'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+
+h3{
+	font-weight: 600;
+	font-size: 30px;
+}
+
+h1{
+	font-weight: 800;
+	font-size: 50px;
+
+}
+h4{
+	font-weight: normal;
+	font-size: 20px;
+
+}
+.wrapper{
+	width: 960px;
+	margin: auto;
+
+}
+.hero-banner{
+background-color: #007FFF;
+min-height: 100vh;
+padding: 50px 50px;
+box-sizing: border-box;
+position: relative;
+overflow: hidden;
+}
+
+.hero-banner h4,
+.hero-banner h4 a{
+	color: white;
+	margin: 0;
+}
+
+.hero-banner h1,
+.hero-banner h1 a{
+	color: white;
+	margin: 14px 0 20px;
+}
+
+.hero-banner h3,
+.hero-banner h3 a{
+	color: white;
+	margin: 0 0 35px;
+}
+
+
+.character1{ 
+	background: url(img/eish-guy.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 150px;
+    height: 500px;
+    position: absolute;
+    top: 350px;
+    right: 250px;
+    transform: rotate(-10deg);
+}
+.character2{
+	background: url(img/circle-guy.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    top: 300px;
+    right: 380px;
+
+}
+
+.character3{
+	background: url(img/hat-guy.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 150px;
+    height: 500px;
+    position: absolute;
+    top: 385px;
+    right: 120px;
+
+}
+
+a.cta,
+button.cta{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	background: #007FFF;
+	display: inline-block;
+	padding: 20px 30px;
+	border-radius: 10px;
+	text-decoration: none;
+	box-shadow: 0 0 0 10px rgba(0, 20, 0, .15);
+}
+a.cta.alt,
+button.cta.alt{
+	background-color: #FFD400;
+	color: black;
+	box-shadow: 0 0 0 10px rgba(0, 20, 0, .15);
+
+}
+/*<div class="hero-banner">
+		<div class="wrapper">
+			<h4>Marie from <a href="https://taptapkaboom.com">Tap Tap Kaboom</a> presents</h4>
+			<h1>The Silliest &amp; <br>
+			Most Awesome Gang <br>
+			In The World! </h1>
+			<h3>It´s Circle Guy, Hat Guy, &amp; Red Guy. <br>
+			They are best friends.</h3>
+			<a class="cta alt" href="#more-info">Read More</a>
+		</div>
+
+		<div class= "caracter1"></div>	
+		<div class= "caracter2"></div>
+		<div class= "caracter3"></div>
+	</div>
+	*/
