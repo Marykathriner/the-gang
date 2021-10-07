@@ -13,18 +13,28 @@ h3{
 h1{
 	font-weight: 800;
 	font-size: 50px;
-
 }
+
+h2{
+	font-weight: 800;
+	font-size: 50px;
+}
+
 h4{
 	font-weight: normal;
 	font-size: 20px;
-
 }
+
+p{font-weight: bold;
+	font-size: 30px;
+	margin: 30px 0;
+}
+
 .wrapper{
 	width: 960px;
 	margin: auto;
-
 }
+
 .hero-banner{
 background-color: #007FFF;
 min-height: 100vh;
@@ -102,21 +112,54 @@ button.cta.alt{
 	background-color: #FFD400;
 	color: black;
 	box-shadow: 0 0 0 10px rgba(0, 20, 0, .15);
+}
+
+nav{
+	height: 100px;
+	background-color: white;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+	position: sticky;
+	top: 0;
 
 }
-/*<div class="hero-banner">
-		<div class="wrapper">
-			<h4>Marie from <a href="https://taptapkaboom.com">Tap Tap Kaboom</a> presents</h4>
-			<h1>The Silliest &amp; <br>
-			Most Awesome Gang <br>
-			In The World! </h1>
-			<h3>It´s Circle Guy, Hat Guy, &amp; Red Guy. <br>
-			They are best friends.</h3>
-			<a class="cta alt" href="#more-info">Read More</a>
-		</div>
+nav .logo{
+	display: block;
+	width: 170px;
+    height: 60px;
+	position: absolute; top: 50%; left: 0;
+	margin-top: -20px;
+	margin-left: 30px;
+	background: url(img/logo.png) no-repeat 0 0;
+	background-size: 100%;
+	overflow: hidden;
+	text-indent: -9999px;
+}
 
-		<div class= "caracter1"></div>	
-		<div class= "caracter2"></div>
-		<div class= "caracter3"></div>
-	</div>
-	*/
+nav ul{
+	padding: 0;
+	margin: 0 20px 0 0;
+}
+nav ul li{
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: right;
+}
+
+nav ul li a{
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	padding: 35px 10px;
+	line-height: 30px;
+}
+
+.more-info{
+	text-align: center;
+}
+
